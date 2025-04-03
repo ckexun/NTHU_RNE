@@ -66,6 +66,13 @@ class PlannerAStar(Planner):
                 self.goal_node = current_node
                 break
 
+            if img is not None:
+                cv2.circle(img, utils.pos_int(current_node), 3, (0,0,1), 1)
+                img_ = cv2.flip(img,0)
+                cv2.imshow('A Star', img_)
+                k = cv2.waitKey(1)
+                if k == 27:
+                    exit(0)
 
             # 8-neighbors
             neighbors = [(-1, 1), (0, 1), (1, 1),
