@@ -65,3 +65,52 @@ python segmentation.py
 
 # YOLO Testing (ROS2 Integration)
 ros2 run yolo_pkg yolo_detection_node
+```
+
+---
+
+## Result
+### Path Planning
+- **A\***  
+  ![A*](HW1_Path%20Planning/code_practice/result/a_star.png)
+
+- **RRT**  
+  ![RRT](HW1_Path%20Planning/code_practice/result/rrt.gif)
+
+- **RRT\***  
+  ![RRT*](HW1_Path%20Planning/code_practice/result/rrt_star.gif)
+### Path Tracking Control
+- **Basic PID + A\***  
+  ![Basic PID + A*](HW2_Path%20Tracking/code_practice/result/basic_pid_a_star.png)
+
+- **Bicycle Stanley + RRT\***  
+  ![Bicycle Stanley + RRT*](HW2_Path%20Tracking/code_practice/result/bicycle_stanley_rrt_star.png)
+
+- **Differential Drive Pure Pursuit + RRT**  
+  ![Diff Drive Pure Pursuit + RRT](HW2_Path%20Tracking/code_practice/result/diff_drive_pure_pursuit_rrt.png)
+
+
+### Deep Reinforcement Learning on Path Tracking
+- **PPO Training Curve**  
+  ![PPO](HW3_Deep%20Reinforcement%20Learning%20on%20Path%20Tracking/code_practice/result/PPO.png)
+### Object Detection & Semantic Segmentation
+#### 🔍 Object Detection
+- **Confusion Matrix**  
+  ![Confusion Matrix (Detection)](HW4_Object%20Detection%20%26%20Semantic%20Segmentation/result/detect/confusion_matrix_normalized.png)
+
+- **F1 Curve**  
+  ![F1 Curve (Detection)](HW4_Object%20Detection%20%26%20Semantic%20Segmentation/result/detect/F1_curve.png)
+
+- **Validation Prediction**  
+  ![Validation Example (Detection)](HW4_Object%20Detection%20%26%20Semantic%20Segmentation/result/detect/val_batch1_pred.jpg)
+
+
+#### Semantic Segmentation
+- **Confusion Matrix**  
+  ![Confusion Matrix (Segmentation)](HW4_Object%20Detection%20%26%20Semantic%20Segmentation/result/segment/confusion_matrix_normalized.png)
+
+- **F1 Curve**  
+  ![F1 Curve (Segmentation)](HW4_Object%20Detection%20%26%20Semantic%20Segmentation/result/segment/BoxF1_curve.png)
+
+- **Validation Prediction**  
+  ![Validation Example (Segmentation)](HW4_Object%20Detection%20%26%20Semantic%20Segmentation/result/segment/val_batch0_pred.jpg)
